@@ -1,6 +1,9 @@
 import asyncio
 
 async def on_startup(dp):
+	from utils import set_default_commands
+	await set_default_commands(dp)
+
 	print("Bot is running")
 
 
