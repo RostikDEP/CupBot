@@ -7,5 +7,6 @@ TOKEN = os.getenv("TO1KEN")
 
 if TOKEN == None:
 	print("Fatal error. Check your TOKEN at .env ")
+	quit()
 
 print(TOKEN)
