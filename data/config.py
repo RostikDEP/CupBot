@@ -8,3 +8,6 @@ TOKEN = os.getenv("TOKEN")
 if TOKEN == None:
 	print("Fatal error. Check your TOKEN at .env ")
 	quit()
+
+ADMINS = os.getenv("ADMINS")
+ADMINS = ADMINS.split()
