@@ -4,3 +4,4 @@ __pycache__/
 **/__pycache__/
 **/Desktop.ini
 **/database.db
+**/database.db-journal
