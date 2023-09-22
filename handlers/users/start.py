@@ -1,6 +1,6 @@
 from aiogram import types
 from loader import dp
-from loader import quotes
+from loader import quotes, database
 
 @dp.message_handler(text='/start')
 async def command_start(message: types.Message):
